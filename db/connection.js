@@ -7,7 +7,7 @@ const path = require("path");
 const envpath = path.join(__dirname, "../config.env");
 dotenv.config({ path: envpath });
 
-const DB = process.env.DATABASE;
+const DB =   "mongodb+srv://suyash:suyashmishra@cluster0.wip7vrj.mongodb.net/todotasks?retryWrites=true&w=majority";;
 mongoose
   .connect(DB)
   .then(() => {
