@@ -1,4 +1,4 @@
-This project was bootstrapped with [nodejs](https://www.google.com/).
+
 
 # Getting Started with install npm init.
 
